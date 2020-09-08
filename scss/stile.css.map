@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACF,SAAS,EAAE,IAAI;CAIjB;;AALD,AAEG,IAFC,CAED,GAAG,CAAC;EACD,UAAU,EAAE,IAAI;CAClB",
+    "sources": [
+        "stile.scss"
+    ],
+    "names": [],
+    "file": "stile.css"
+}
