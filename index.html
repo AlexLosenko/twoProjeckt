@@ -5,6 +5,7 @@
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<meta name="viewport" content="width=device-wid, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<link rel="stylesheet" href="css/zeroing.css">
+	<link rel="stylesheet" href="/css/jquery.fancybox.css">
 	<link rel="stylesheet" href="css/font-face.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Development</title>
@@ -17,13 +18,13 @@
 				<div class="header__wrapper">
 					<div class="header__top">
 						<div class="header__facebook">
-							<a href="//https:www.facebook.com">
+							<a data-fancybox href="https://youtu.be/G9Zt_P3MAI0">
 								<img src="img/svg/FB.svg" alt="FB-link">
 							</a>
 						</div>
 						<div class="header__logo">
 							<a href="#">
-								<img src="img/svg/logo-Development.svg" alt="logo">
+								<img src="img/header/logo.png" alt="logo">
 							</a>
 						</div>
 						<div class="header__burger">
@@ -82,12 +83,12 @@
 						<div class="section-content__rows">
 							<div class="section-content__row-first">
 								<div class="section-content__row-first-colum-1">
-									<h2>Ми будуємо Європу в Україні, маючи <br> незаперечні переваги, що виділяють нас поміж <br>
+									<h2>Ми будуємо Європу в Україні, маючи незаперечні переваги, що виділяють нас поміж
 										інших.</h2>
 								</div>
 								<div class="section-content__row-first-colum-2">
 									<p>
-										We create <br> the European lifestyle <br> in Ukraine
+										We create the European lifestyle in Ukraine
 									</p>
 								</div>
 							</div>
@@ -137,7 +138,8 @@
 			<section class="section section-two">
 				<div class="section-wrapper section-wrapper_bg">
 					<div class="section-wrapper__left section-wrapper__left-absolut">
-						<div class="section-wrapper__left-blocks section-wrapper__left-blocks-section_white">
+						<div
+							class="section-wrapper__left-blocks section-wrapper__left-blocks_section-two section-wrapper__left-blocks-section_white">
 							<div class="section-wrapper__brick section-wrapper__brick_white"></div>
 							<div class="section-wrapper__brick section-wrapper__brick_white"></div>
 							<div class="section-wrapper__brick section-wrapper__brick_white"></div>
@@ -457,7 +459,9 @@
 						</div>
 						<div class="sc-six__row row-second-sc6">
 							<div class="row-second-sc6__column_1 row-second-sc6__columns">
-								<img src="img/section__six/jpeg/room.jpg" alt="">
+								<a href="img/section__six/jpeg/room.jpg" data-fancybox="images" data-caption="">
+									<img src="img/section__six/jpeg/room.jpg" alt="">
+								</a>
 							</div>
 							<div class="row-second-sc6__column_2 row-second-sc6__columns">
 								<div class="news">
@@ -537,8 +541,10 @@
 		<div class="front__"></div>
 
 	</div>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 	<script src="js/script.js"></script>
-
+	<script src="/js/jquery.fancybox.min.js"></script>
+	<script src="/js/main.js"></script>
 </body>
 
 </html>
